@@ -69,6 +69,20 @@ section {
   background-color: #f5f6f7;
 }
 
+.hero .info .btn-get-started {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  border: 2px solid var(--color-primary);
+}
+
 .section-header {
   text-align: center;
   padding-bottom: 70px;
