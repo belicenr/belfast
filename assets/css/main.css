@@ -69,20 +69,6 @@ section {
   background-color: #f5f6f7;
 }
 
-.hero .info .btn-get-started {
-  font-family: var(--font-primary);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  color: #fff;
-  border: 2px solid var(--color-primary);
-}
-
 .section-header {
   text-align: center;
   padding-bottom: 70px;
@@ -325,6 +311,24 @@ section {
     transition: 0.3s;
     position: relative;
   }
+  
+  .navbar button {
+	font-family: var(--font-primary);
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 12px 20px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 10px;
+	color: #fff;
+	border: 2px solid var(--color-primary);
+	background-color: Transparent;
+    background-repeat:no-repeat;
+	
+  }
+  
 
   .navbar a i,
   .navbar a:focus i {
@@ -476,6 +480,22 @@ section {
     transition: 0.3s;
   }
 
+  .navbar button {
+	font-family: var(--font-primary);
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 5px 5px;
+	border-radius: 25px;
+	transition: 0.5s;
+	margin: 5px;
+	color: #fff;
+	border: 2px solid var(--color-primary);
+	background-color: Transparent;
+    background-repeat:no-repeat;
+	
+  }
   .navbar a i,
   .navbar a:focus i {
     font-size: 12px;
